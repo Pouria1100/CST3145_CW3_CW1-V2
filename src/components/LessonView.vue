@@ -1,5 +1,6 @@
 <template>
   <div class="lessonContainer">
+      <a href="https://afterschool-env.eba-ri2ffiqw.eu-west-2.elasticbeanstalk.com/lessons">Lessons Link</a>
      
       <div v-for="(lesson, index) in lessons" :key="index" class="lessonCard col-11">
           <i v-bind:class="lesson.icon" class="lessonIcon"></i>
